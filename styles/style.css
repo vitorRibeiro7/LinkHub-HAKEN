@@ -3,7 +3,7 @@
 body {
     background: var(--background-color);
 
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
     overflow-x: hidden;
 }
 
@@ -12,13 +12,14 @@ body {
     height: 10vw;
     clip-path: circle(50% at 50% 50%);
     background: var(--circle-color);
+    z-index: -999;
 }
 
 .backgroundCircle.top {
     width: 55vw;
     height: 55vw;
 
-    position: absolute;
+    position: fixed;
 
     top: -45vw;
     left: 10vw;
@@ -28,7 +29,7 @@ body {
     width: 55vw;
     height: 55vw;
 
-    position: absolute;
+    position: fixed;
 
     bottom: -45vw;
     left: -15vw;
@@ -38,8 +39,89 @@ body {
     width: 30vw;
     height: 30vw;
 
-    position: absolute;
+    position: fixed;
 
     right: -12vw;
     bottom: -5vw;
+}
+
+/*** MAIN ***/
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    width: 30vw;
+    height: auto;
+
+    background: var(--background-color);
+
+    margin-top: 3vw;
+    margin-bottom: 6vw;
+
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 30px;
+
+}
+
+.userBlock {
+    width: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.userAvatar {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.userAvatar img {
+    width: 150px;
+    height: auto;
+}
+
+.userName {
+    width: 100%;
+
+    margin-bottom: 15px;
+}
+
+.userName p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+
+    text-align: center;
+}
+
+.userDescription {
+    width: 100%;
+    height: auto;
+}
+
+.userDescription p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
 }
