@@ -4,3 +4,12 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+
+:root {
+    --background-color: #F6F6F6;
+    --circle-color: #006C6A;
+    --userName-color: #4F4F4F;
+    --userDescription-color: #4F4F4F;
+    --buttonBackground-color: #008F8C;
+    --text-color: #F6F6F6;
+}
