@@ -1,7 +1,15 @@
 /*** BACKGROUND ***/
 
+html {
+
+    min-height: 100%;
+    min-width: 100%;
+
+}
+
 body {
     background: var(--background-color);
+    background-repeat: no-repeat;
 
     /* overflow-y: hidden; */
     overflow-x: hidden;
@@ -57,7 +65,7 @@ body {
     width: 30vw;
     height: auto;
 
-    background: var(--background-color);
+    background: var(--backgroundContent-color);
 
     margin-top: 3vw;
     margin-bottom: 6vw;
@@ -106,6 +114,8 @@ body {
     width: 100%;
 
     margin-bottom: 15px;
+
+    color: var(--userName-color);
 }
 
 .userName p {
@@ -120,6 +130,8 @@ body {
 .userDescription {
     width: 100%;
     height: auto;
+
+    color: var(--userDescription-color);
 }
 
 .userDescription p {
@@ -165,4 +177,20 @@ body {
     text-transform: uppercase;
 
     cursor: pointer;
+}
+
+/* USER SOCIALNETWORKS */
+
+.userSocialNetworks {
+    width: 80%;
+    height: auto;
+
+    margin-top: 30px;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    color: var(--linksBtn-color);
 }
