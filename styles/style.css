@@ -1,0 +1,45 @@
+/*** BACKGROUND ***/
+
+body {
+    background: var(--background-color);
+
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.backgroundCircle {
+    width: 10vw;
+    height: 10vw;
+    clip-path: circle(50% at 50% 50%);
+    background: var(--circle-color);
+}
+
+.backgroundCircle.top {
+    width: 55vw;
+    height: 55vw;
+
+    position: absolute;
+
+    top: -45vw;
+    left: 10vw;
+}
+
+.backgroundCircle.bottomLeft {
+    width: 55vw;
+    height: 55vw;
+
+    position: absolute;
+
+    bottom: -45vw;
+    left: -15vw;
+}
+
+.backgroundCircle.bottomRight {
+    width: 30vw;
+    height: 30vw;
+
+    position: absolute;
+
+    right: -12vw;
+    bottom: -5vw;
+}
