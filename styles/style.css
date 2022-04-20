@@ -59,16 +59,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .content {
-    width: 30vw;
+    width: 510px;
     height: auto;
 
     background: var(--backgroundContent-color);
 
     margin-top: 3vw;
-    margin-bottom: 6vw;
+    margin-bottom: 120px;
 
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
     border-radius: 12px;
@@ -169,8 +170,8 @@ body {
 
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
+    font-weight: 500;
+    font-size: 18px;
     text-align: center;
     color: var(--text-color);
 
@@ -193,4 +194,25 @@ body {
     gap: 20px;
 
     color: var(--linksBtn-color);
+}
+
+/*** FOOTER ***/
+
+footer {
+    position: fixed;
+    bottom: 20px;
+    z-index: -10;
+}
+
+footer h1 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: var(--text-color);
 }
