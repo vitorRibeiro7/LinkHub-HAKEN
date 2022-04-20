@@ -215,7 +215,7 @@ footer h1 {
     text-align: center;
     letter-spacing: 0.05em;
 
-    color: var(--text-color);
+    color: var(--circle-color);
 }
 
 /*** CHANGE MODE ***/
@@ -225,7 +225,7 @@ footer h1 {
     width: auto;
     height: auto;
 
-    position: absolute;
+    position: fixed;
 
     right: 20px;
     top: 10px;
