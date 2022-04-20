@@ -7,7 +7,7 @@
     text-decoration: none;
 }
 
-/* :root {
+:root {
     --background-color: #F6F6F6;
     --backgroundContent-color: #F6F6F6;
     --circle-color: #006C6A;
@@ -16,9 +16,9 @@
     --buttonBackground-color: #008F8C;
     --text-color: #F6F6F6;
     --linksBtn-color: #008F8C;
-} */
+}
 
-:root {
+/* :root {
     --background-color: linear-gradient(107.56deg, #008F8C 0%, #015958 100%);
     --backgroundContent-color: #015958;
     --circle-color: #f6f6f6;
@@ -27,7 +27,7 @@
     --buttonBackground-color: #008F8C;
     --text-color: #F6F6F6;
     --linksBtn-color: #F6F6F6;
-}
+} */
 
 a {
     color: var(--linksBtn-color);
