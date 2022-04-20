@@ -217,3 +217,24 @@ footer h1 {
 
     color: var(--text-color);
 }
+
+/*** CHANGE MODE ***/
+
+.changeMode {
+
+    width: auto;
+    height: auto;
+
+    position: absolute;
+
+    right: 20px;
+    top: 10px;
+
+    color: black;
+
+    cursor: pointer;
+}
+
+.changeMode img {
+    width: 40px;
+}
