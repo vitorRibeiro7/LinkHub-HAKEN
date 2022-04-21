@@ -180,6 +180,10 @@ body {
     cursor: pointer;
 }
 
+.linkBlock:hover {
+    background: #00adab;
+}
+
 /* USER SOCIALNETWORKS */
 
 .userSocialNetworks {
@@ -194,6 +198,17 @@ body {
     gap: 20px;
 
     color: var(--linksBtn-color);
+}
+
+.social {
+    transition: all .1s ease-in-out;
+}
+
+.social:hover {
+    transform: scale(1.2);
+
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 /*** FOOTER ***/
