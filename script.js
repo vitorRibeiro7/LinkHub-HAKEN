@@ -35,7 +35,7 @@ function myFunction_get() {
         r.style.setProperty('--userDescription-color', ' #4F4F4F');
         r.style.setProperty('--buttonBackground-color', ' #008F8C');
         r.style.setProperty('--text-color', ' #f6f6f6');
-        r.style.setProperty('--linksBtn-color', ' #008F7C');
+        r.style.setProperty('--linksBtn-color', ' #008F8C');
         r.style.setProperty('--logo-color', ' #006C6A');
 
 
