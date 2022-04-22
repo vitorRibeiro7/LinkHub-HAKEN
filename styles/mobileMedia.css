@@ -1,0 +1,291 @@
+@media (min-width: 0px) {
+    /*** BACKGROUND ***/
+
+    html {
+
+        min-height: 100%;
+        min-width: 100%;
+
+    }
+
+    body {
+        background: var(--background-color);
+        background-repeat: no-repeat;
+
+        transition: background 800ms;
+
+        /* overflow-y: hidden; */
+        overflow-x: hidden;
+    }
+
+    .backgroundCircle {
+        width: 10vw;
+        height: 10vw;
+        clip-path: circle(50% at 50% 50%);
+        background: var(--circle-color);
+
+        transition: background 800ms;
+
+        z-index: -999;
+    }
+
+    .backgroundCircle.top {
+        width: 55vw;
+        height: 55vw;
+
+        position: fixed;
+
+        top: -45vw;
+        left: 10vw;
+    }
+
+    .backgroundCircle.bottomLeft {
+        width: 55vw;
+        height: 55vw;
+
+        position: fixed;
+
+        bottom: -45vw;
+        left: -15vw;
+    }
+
+    .backgroundCircle.bottomRight {
+        width: 30vw;
+        height: 30vw;
+
+        position: fixed;
+
+        right: -12vw;
+        bottom: -5vw;
+    }
+
+    /*** MAIN ***/
+
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .content {
+        width: 95vw;
+        height: auto;
+
+        background: var(--backgroundContent-color);
+
+        transition: background 800ms;
+
+        margin-top: 50px;
+        margin-bottom: 40px;
+
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 12px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        padding: 25px;
+
+    }
+
+    /*** USER SECTION ***/
+
+    /* USER PROFILE */
+
+    .userBlock {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .userAvatar {
+        width: 100%;
+        height: auto;
+        margin-bottom: 5px;
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .userAvatarCircle {
+        width: 140px;
+        height: 140px;
+
+        clip-path: circle(50% at 50% 50%);
+    }
+
+    .userAvatar img {
+        width: 100%;
+        height: 100%;
+
+        object-fit: cover;
+    }
+
+    .userName {
+        width: 100%;
+
+        margin-bottom: 15px;
+
+        color: var(--userName-color);
+
+        transition: color 800ms;
+    }
+
+    .userName p {
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 21px;
+
+        text-align: center;
+    }
+
+    .userDescription {
+        width: 100%;
+        height: auto;
+
+        color: var(--userDescription-color);
+        transition: color 800ms;
+
+    }
+
+    .userDescription p {
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    /* USER LINKS */
+
+    .userLinks {
+        width: 100%;
+        height: auto;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+
+        margin-top: 30px;
+    }
+
+    .linkBlock {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        background: var(--buttonBackground-color);
+
+        transition: background 800ms;
+
+        border-radius: 2px;
+
+        filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.20));
+
+        text-align: center;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        text-align: center;
+        color: var(--text-color);
+
+        text-transform: uppercase;
+
+        cursor: pointer;
+    }
+
+    .linkBlock:hover {
+        background: var(--buttonBackgroundHover-color);
+
+        transition: background 600ms;
+
+    }
+
+    /* USER SOCIALNETWORKS */
+
+    .userSocialNetworks {
+        width: 100%;
+        height: auto;
+
+        margin-top: 30px;
+
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        color: var(--linksBtn-color);
+
+        transition: color 800ms;
+
+    }
+
+    .social {
+        transition: all .1s ease-in-out;
+    }
+
+    .social:hover {
+        transform: scale(1.3);
+
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+
+    /*** FOOTER ***/
+
+    footer {
+        width: 100%;
+        height: auto;
+        position: relative;
+        padding: 5px;
+        margin-bottom: 40px;
+    }
+
+    footer h1 {
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        /* identical to box height */
+
+        text-align: center;
+        letter-spacing: 0.05em;
+
+        color: var(--logo-color);
+
+        transition: color 800ms;
+
+    }
+
+    /*** CHANGE MODE ***/
+
+    .changeMode {
+
+        width: auto;
+        height: auto;
+
+        position: fixed;
+
+        right: 20px;
+        top: 10px;
+
+        color: black;
+
+        cursor: pointer;
+    }
+
+    .changeMode img {
+        width: 40px;
+    }
+}
