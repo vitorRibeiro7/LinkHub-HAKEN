@@ -11,6 +11,8 @@ body {
     background: var(--background-color);
     background-repeat: no-repeat;
 
+    transition: background 800ms;
+
     /* overflow-y: hidden; */
     overflow-x: hidden;
 }
@@ -20,6 +22,9 @@ body {
     height: 10vw;
     clip-path: circle(50% at 50% 50%);
     background: var(--circle-color);
+
+    transition: background 800ms;
+
     z-index: -999;
 }
 
@@ -68,6 +73,8 @@ body {
 
     background: var(--backgroundContent-color);
 
+    transition: background 800ms;
+
     margin-top: 50px;
     margin-bottom: 40px;
 
@@ -79,7 +86,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    padding: 30px;
+    padding: 25px;
 
 }
 
@@ -126,6 +133,8 @@ body {
     margin-bottom: 15px;
 
     color: var(--userName-color);
+
+    transition: color 800ms;
 }
 
 .userName p {
@@ -142,6 +151,8 @@ body {
     height: auto;
 
     color: var(--userDescription-color);
+    transition: color 800ms;
+
 }
 
 .userDescription p {
@@ -171,6 +182,9 @@ body {
     height: auto;
     padding: 20px;
     background: var(--buttonBackground-color);
+
+    transition: background 800ms;
+
     border-radius: 2px;
 
     filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.20));
@@ -190,7 +204,10 @@ body {
 }
 
 .linkBlock:hover {
-    background: #00adab;
+    background: var(--buttonBackgroundHover-color);
+
+    transition: background 600ms;
+
 }
 
 /* USER SOCIALNETWORKS */
@@ -207,6 +224,9 @@ body {
     gap: 20px;
 
     color: var(--linksBtn-color);
+
+    transition: color 800ms;
+
 }
 
 .social {
@@ -242,6 +262,9 @@ footer h1 {
     letter-spacing: 0.05em;
 
     color: var(--logo-color);
+
+    transition: color 800ms;
+
 }
 
 /*** CHANGE MODE ***/
