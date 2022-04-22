@@ -69,7 +69,7 @@
     }
 
     .content {
-        width: 60vw;
+        width: 75vw;
         height: auto;
 
         background: var(--backgroundContent-color);
