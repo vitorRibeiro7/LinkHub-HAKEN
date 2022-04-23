@@ -158,8 +158,8 @@ body {
 .userDescription p {
     font-family: 'Nunito';
     font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
+    font-weight: 500;
+    font-size: 16px;
     text-align: center;
 }
 
@@ -207,7 +207,6 @@ body {
     background: var(--buttonBackgroundHover-color);
 
     transition: background 600ms;
-
 }
 
 /* USER SOCIALNETWORKS */
@@ -282,6 +281,8 @@ footer h1 {
     color: black;
 
     cursor: pointer;
+
+    z-index: 99;
 }
 
 .changeMode img {
