@@ -19,6 +19,8 @@
     --logo-color: #006C6A;
 
     --buttonBackgroundHover-color: #00adab;
+
+    --modeTransition-time: 300ms;
 }
 
 /* :root {
