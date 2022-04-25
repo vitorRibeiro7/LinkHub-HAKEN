@@ -11,7 +11,7 @@ body {
     background: var(--background-color);
     background-repeat: no-repeat;
 
-    transition: background 800ms;
+    transition: background var(--modeTransition-time);
 
     /* overflow-y: hidden; */
     overflow-x: hidden;
@@ -23,7 +23,7 @@ body {
     clip-path: circle(50% at 50% 50%);
     background: var(--circle-color);
 
-    transition: background 800ms;
+    transition: background var(--modeTransition-time);
 
     z-index: -999;
 }
@@ -73,9 +73,9 @@ body {
 
     background: var(--backgroundContent-color);
 
-    transition: background 800ms;
+    transition: background var(--modeTransition-time);
 
-    margin-top: 50px;
+    margin-top: 70px;
     margin-bottom: 40px;
 
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
@@ -134,7 +134,7 @@ body {
 
     color: var(--userName-color);
 
-    transition: color 800ms;
+    transition: color var(--modeTransition-time);
 }
 
 .userName p {
@@ -151,7 +151,7 @@ body {
     height: auto;
 
     color: var(--userDescription-color);
-    transition: color 800ms;
+    transition: color var(--modeTransition-time);
 
 }
 
@@ -168,6 +168,7 @@ body {
 .userLinks {
     width: 80%;
     height: auto;
+    min-height: 300px;
 
     display: flex;
     flex-direction: column;
@@ -183,7 +184,7 @@ body {
     padding: 20px;
     background: var(--buttonBackground-color);
 
-    transition: background 800ms;
+    transition: background var(--modeTransition-time);
 
     border-radius: 2px;
 
@@ -206,7 +207,7 @@ body {
 .linkBlock:hover {
     background: var(--buttonBackgroundHover-color);
 
-    transition: background 600ms;
+    transition: background var(--modeTransition-time);
 }
 
 /* USER SOCIALNETWORKS */
@@ -224,7 +225,7 @@ body {
 
     color: var(--linksBtn-color);
 
-    transition: color 800ms;
+    transition: color var(--modeTransition-time);
 
 }
 
@@ -262,7 +263,7 @@ footer h1 {
 
     color: var(--logo-color);
 
-    transition: color 800ms;
+    transition: color var(--modeTransition-time);
 
 }
 
