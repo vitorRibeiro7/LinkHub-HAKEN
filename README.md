@@ -4,9 +4,9 @@
 <br>
 
 <p align="center">
-<img src="https://img.shields.io/github/repo-size/vitorRibeiro7/LinkBash-HAKEN?style=for-the-badge" alt="">
-<img src="https://img.shields.io/github/license/vitorRibeiro7/LinkBash-HAKEN?style=for-the-badge" alt="">
-<img src="https://img.shields.io/github/commit-activity/y/vitorRibeiro7/LinkBash-HAKEN?style=for-the-badge" alt="">
+<img src="https://img.shields.io/github/repo-size/vitorRibeiro7/LinkHub-HAKEN?style=for-the-badge" alt="">
+<img src="https://img.shields.io/github/license/vitorRibeiro7/LinkHub-HAKEN?style=for-the-badge" alt="">
+<img src="https://img.shields.io/github/commit-activity/y/vitorRibeiro7/LinkHub-HAKEN?style=for-the-badge" alt="">
 </p>
 
 <h1>🔖 Sobre</h1>
