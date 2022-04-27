@@ -14,11 +14,17 @@
     <b>LinkHub</b> é o nome de uma empresa fictícia pensado para dar base ao projeto de um site estilo LinkTree, tal que disponibiliza uma seção para os usuários anexarem seus links para sites terceiros tais como redes sociais.
 </p>
 
+<br>
+
 ## 🚀 Tecnologias
 
 - [HTML](https://devdocs.io/html/)
 - [CSS](https://devdocs.io/css/)
 - [JAVASCRIPT](https://devdocs.io/javascript/)
+
+<h2>🖍️ Design concept</h1>
+
+- [FIGMA](https://www.figma.com/file/Uh9C3igsmPPT3GRG9isPWA/Untitled?node-id=0%3A1)
 
 <br>
 
@@ -38,16 +44,5 @@
 <br>
 <br>
 <br>
-
-<!-- <table><tr>
-<td align="center"><a href="https://github.com/vitorRibeiro7">
- <img style="border-radius: 30%;" src="https://avatars.githubusercontent.com/u/72838474?v=4" width="100px;" alt=""/>
-<br />
- <b>Vitor Ribeiro</b></a>
- <a href="https://github.com/vitorRibeiro7" title="Repositorio Jhonatan"></a>
-
-[![Gmail Badge](https://img.shields.io/badge/-vitorhugoribeiro@alunos.utfpr.edu.br-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:vitorhugoribeiro@alunos.utfpr.edu.br)](mailto:vitorhugoribeiro@alunos.utfpr.edu.br)</td>
-
-</tr></table> -->
 
 <p align="center"> Criado com ☕ por <b>Vitor Ribeiro. </b></p>
