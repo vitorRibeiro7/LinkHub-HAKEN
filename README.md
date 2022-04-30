@@ -11,7 +11,7 @@
 
 <h1>🔖 Sobre</h1>
 <p align="center">
-    <b>LinkHub</b> é o nome de uma empresa fictícia pensado para dar base ao projeto de um site estilo LinkTree, que disponibiliza uma seção para os usuários anexarem seus links para sites terceiros tais como redes sociais.
+    <b>LinkHub</b> é o nome de uma empresa fictícia pensado para dar base ao projeto de um site estilo <b>LinkTree</b>, que disponibiliza uma seção para os usuários anexarem seus links para sites terceiros tais como redes sociais.
 </p>
 
 <br>
