@@ -241,6 +241,11 @@ body {
 
 }
 
+.social:focus {
+    outline-color: var(--circle-color);
+    outline-offset: 3px;
+}
+
 /*** FOOTER ***/
 
 footer {
@@ -284,8 +289,34 @@ footer h1 {
     cursor: pointer;
 
     z-index: 99;
+
+    background: transparent;
+    border: none;
+
 }
 
 .changeMode img {
     width: 40px;
+}
+
+/*** Accessibility ***/
+
+.focus:focus {
+    outline-color: var(--circle-color);
+    outline-offset: 3px;
+}
+
+.socialFocus:focus {
+    transform: scale(1.3);
+
+    margin-left: 10px;
+    margin-right: 10px;
+
+    transition: transform 300ms;
+}
+
+.linksFocus:focus {
+    background: var(--buttonBackgroundHover-color);
+
+    transition: background var(--modeTransition-time);
 }
