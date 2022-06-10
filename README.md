@@ -7,6 +7,11 @@
 <img src="https://img.shields.io/github/repo-size/vitorRibeiro7/LinkHub-HAKEN?style=for-the-badge" alt="">
 <img src="https://img.shields.io/github/license/vitorRibeiro7/LinkHub-HAKEN?style=for-the-badge" alt="">
 <img src="https://img.shields.io/github/commit-activity/y/vitorRibeiro7/LinkHub-HAKEN?style=for-the-badge" alt="">
+<br>
+<br>
+<a href="https://linkhub-haken.netlify.app">
+<img src="https://api.netlify.com/api/v1/badges/21889c68-6e95-4ca9-a848-424049a1a842/deploy-status" alt="">
+</a>
 </p>
 
 <h1>🔖 Sobre</h1>
