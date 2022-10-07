@@ -33,7 +33,7 @@
 
 <br>
 
-```ruby
+```bash
 - Como rodar? ↴
 ```
 >ESTE PROJETO ESTÁ HOSPEDADO NA <a href="https://linkhub-haken.netlify.app">NETLIFY</a>.
