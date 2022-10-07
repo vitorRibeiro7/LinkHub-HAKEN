@@ -33,6 +33,18 @@
 
 <br>
 
+```ruby
+- Como rodar? ↴
+```
+>ESTE PROJETO ESTÁ HOSPEDADO NA <a href="https://linkhub-haken.netlify.app">NETLIFY</a>.
+```bash
+# Clone este repositório
+$ git clone https://github.com/vitorRibeiro7/LinkHub-HAKEN.git
+
+# Abra o arquivo 'index.html'
+$ start index.gtml
+```
+
 ## 🖥️ Web View
 <p align="center">
     <img src="img/webview.png" alt="">
