@@ -42,7 +42,7 @@
 $ git clone https://github.com/vitorRibeiro7/LinkHub-HAKEN.git
 
 # Abra o arquivo 'index.html'
-$ start index.gtml
+$ start index.html
 ```
 
 ## 🖥️ Web View
